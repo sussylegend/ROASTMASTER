@@ -309,8 +309,8 @@
             <div class="share-options" id="shareOptions">
                 <h3>Share this roast with your friends!</h3>
                 <div class="share-buttons">
-                    <button class="share-btn twitter" id="twitterShare">
-                        <i class="fab fa-twitter"></i> Twitter
+                    <button class="share-btn whatsapp" id="whatsappShare">
+                        <i class="fab fa-whatsapp"></i> whatsapp
                     </button>
                     <button class="share-btn facebook" id="facebookShare">
                         <i class="fab fa-facebook-f"></i> Facebook
@@ -325,7 +325,7 @@
         <div class="toast" id="toast">Roast copied to clipboard!</div>
         
         <footer>
-            <p>Made with ❤️ and a little bit of sarcasm | © 2023 RoastMaster</p>
+            <p>Made with ❤️ and a little bit of sarcasm | © 2025 RoastMaster BY SANCHAL</p>
             <p>Disclaimer: All roasts are meant to be in good fun. Please don't use to actually hurt anyone's feelings.</p>
         </footer>
     </div>
@@ -370,7 +370,7 @@
             const shareBtn = document.getElementById('shareBtn');
             const shareOptions = document.getElementById('shareOptions');
             const categoryBtns = document.querySelectorAll('.category-btn');
-            const twitterShare = document.getElementById('twitterShare');
+            const whatsappShare = document.getElementById('whatsappShare');
             const facebookShare = document.getElementById('facebookShare');
             const copyShare = document.getElementById('copyShare');
             const toast = document.getElementById('toast');
@@ -404,9 +404,9 @@
                 shareOptions.classList.toggle('active');
             });
             
-            twitterShare.addEventListener('click', function() {
+            whatsappShare.addEventListener('click', function() {
                 const text = encodeURIComponent(`"${currentRoast}" - Get your own roast at RoastMaster!`);
-                window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
+                window.open(`[https://web.whatsapp.com/]');
             });
             
             facebookShare.addEventListener('click', function() {
